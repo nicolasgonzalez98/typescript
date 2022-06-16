@@ -1,5 +1,5 @@
 //tipado inferido
-let mati = {
+let mati:Persona = {
     nombre: 'Matias',
     edad: 29
 }

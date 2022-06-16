@@ -23,14 +23,16 @@ let matias: Persona = {
     hobbies: [{nombre: 'leer'}]
 }
 
-matias.hobbies[0].nombre
+//matias.hobbies[0].nombre
 
 let franco: Estudiante = {
     nombre: 'franco',
     apellido: 'etcheverri',
     edad: 27,
-
+    estaActivo:true,
     saluda: (a:  string) => {console.log('hola')},
     hobbies: []
 }
-franco.estaActivo //undefined o booleano
+
+console.log(matias.edad)
+//undefined o booleano
