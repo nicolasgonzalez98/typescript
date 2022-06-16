@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "dev": "nodemon index.ts",
+    "build": "tsc",
     "ejercicio-uno": "nodemon  \"./homeworks/ejercicio 1.ts\"",
     "ejercicio-dos": "nodemon  \"./homeworks/ejercicio 2/ejercicio 2.ts\"",
     "ejercicio-tres": "nodemon  \"./homeworks/ejercicio 3.ts\"",
